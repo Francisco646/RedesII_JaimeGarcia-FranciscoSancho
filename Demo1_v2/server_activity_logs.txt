@@ -1,0 +1,154 @@
+[REQUEST] 2024-05-22T17:58:51.301046500 - GET /resources
+[LOG] 2024-05-22T17:58:51.301046500 - Response: [{"id":"1","name":"Max","breed":"Labrador Retriever","age":5},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Bailey","breed":"Boxer","age":2}]
+[REQUEST] 2024-05-22T17:58:51.361545800 - GET /resources
+[LOG] 2024-05-22T17:58:51.361545800 - Response: [{"id":"1","name":"Max","breed":"Labrador Retriever","age":5},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Bailey","breed":"Boxer","age":2}]
+[REQUEST] 2024-05-22T17:59:07.323064500 - GET /hello
+[LOG] 2024-05-22T17:59:07.323064500 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T17:59:07.337060 - GET /hello
+[LOG] 2024-05-22T17:59:07.337060 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:00:43.556627100 - GET /resources
+[LOG] 2024-05-22T18:00:43.556627100 - Response: [{"id":"1","name":"Max","breed":"Labrador Retriever","age":5},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Bailey","breed":"Boxer","age":2}]
+[REQUEST] 2024-05-22T18:00:43.620157800 - GET /resources
+[LOG] 2024-05-22T18:00:43.620157800 - Response: [{"id":"1","name":"Max","breed":"Labrador Retriever","age":5},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Bailey","breed":"Boxer","age":2}]
+[REQUEST] 2024-05-22T18:00:55.180849500 - GET /hello
+[LOG] 2024-05-22T18:00:55.180849500 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:00:55.193849400 - GET /hello
+[LOG] 2024-05-22T18:00:55.193849400 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:02:46.320578500 - PUT /resource/1
+[LOG] 2024-05-22T18:02:46.320578500 - Response: 201 Recurso modificado correctamente: 1
+[REQUEST] 2024-05-22T18:02:46.332098 - PUT /resource/1
+[LOG] 2024-05-22T18:02:46.332098 - Response: 400 Bad Request (empty body)
+[REQUEST] 2024-05-22T18:02:53.624167 - GET /resources
+[LOG] 2024-05-22T18:02:53.624167 - Response: [{"id":"1","name":"Coco","breed":"Border Collie","age":8},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Bailey","breed":"Boxer","age":2}]
+[REQUEST] 2024-05-22T18:02:53.632169900 - GET /resources
+[LOG] 2024-05-22T18:02:53.633170 - Response: [{"id":"1","name":"Coco","breed":"Border Collie","age":8},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Bailey","breed":"Boxer","age":2}]
+[REQUEST] 2024-05-22T18:02:59.418089400 - DELETE /resource/10
+[LOG] 2024-05-22T18:02:59.419091100 - Response: 200 Recurso eliminado correctamente: 10
+[REQUEST] 2024-05-22T18:02:59.428088500 - DELETE /resource/10
+[LOG] 2024-05-22T18:02:59.428088500 - Response: 404 Error: Resource with ID 10 not found
+[REQUEST] 2024-05-22T18:03:10.081119100 - GET /resources
+[LOG] 2024-05-22T18:03:10.081119100 - Response: [{"id":"1","name":"Coco","breed":"Border Collie","age":8},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3}]
+[REQUEST] 2024-05-22T18:03:10.090119400 - GET /resources
+[LOG] 2024-05-22T18:03:10.090119400 - Response: [{"id":"1","name":"Coco","breed":"Border Collie","age":8},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3}]
+[REQUEST] 2024-05-22T18:03:16.746404600 - GET /hello
+[LOG] 2024-05-22T18:03:16.746404600 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:03:16.754371300 - GET /hello
+[LOG] 2024-05-22T18:03:16.754371300 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:07:20.941229500 - GET /resources
+[LOG] 2024-05-22T18:07:20.941229500 - Response: [{"id":"1","name":"Coco","breed":"Border Collie","age":8},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3}]
+[REQUEST] 2024-05-22T18:07:20.997237 - GET /resources
+[LOG] 2024-05-22T18:07:20.998238600 - Response: [{"id":"1","name":"Coco","breed":"Border Collie","age":8},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3}]
+[REQUEST] 2024-05-22T18:08:11.994557700 - PUT /resource/1
+[LOG] 2024-05-22T18:08:11.994557700 - Response: 201 Recurso modificado correctamente: 1
+[REQUEST] 2024-05-22T18:08:12.010567200 - PUT /resource/1
+[LOG] 2024-05-22T18:08:12.011568 - Response: 400 Bad Request (empty body)
+[REQUEST] 2024-05-22T18:08:22.068262200 - GET /resources
+[LOG] 2024-05-22T18:08:22.068262200 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3}]
+[REQUEST] 2024-05-22T18:08:22.083257100 - GET /resources
+[LOG] 2024-05-22T18:08:22.083257100 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3}]
+[REQUEST] 2024-05-22T18:08:38.561215400 - GET /hello
+[LOG] 2024-05-22T18:08:38.561215400 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:08:38.571730 - GET /hello
+[LOG] 2024-05-22T18:08:38.571730 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:14:29.105679800 - GET /hello
+[LOG] 2024-05-22T18:14:29.106677300 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:14:43.370078300 - GET /resources
+[LOG] 2024-05-22T18:14:43.371078700 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3}]
+[REQUEST] 2024-05-22T18:16:02.344124900 - GET /hello
+[LOG] 2024-05-22T18:16:02.344124900 - Response: <!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Hello, World Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+[REQUEST] 2024-05-22T18:16:26.031931400 - GET /resources
+[LOG] 2024-05-22T18:16:26.031931400 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3}]
+[REQUEST] 2024-05-22T18:18:05.935651200 - POST /resource
+[LOG] 2024-05-22T18:18:05.935651200 - Response: 201 Recurso agregado correctamente: Resource{id='10', name='Coco', breed='Labrador Retriever', age=7}
+[REQUEST] 2024-05-22T18:18:05.970655500 - POST /resource
+[LOG] 2024-05-22T18:18:05.970655500 - Response: 400 Bad Request (empty body)
+[REQUEST] 2024-05-22T18:18:13.167270500 - GET /resources
+[LOG] 2024-05-22T18:18:13.167270500 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Coco","breed":"Labrador Retriever","age":7}]
+[REQUEST] 2024-05-22T18:18:13.176275 - GET /resources
+[LOG] 2024-05-22T18:18:13.176275 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Coco","breed":"Labrador Retriever","age":7}]
+[REQUEST] 2024-05-22T18:18:14.663496600 - GET /resources
+[LOG] 2024-05-22T18:18:14.663496600 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Coco","breed":"Labrador Retriever","age":7}]
+[REQUEST] 2024-05-22T18:18:33.652290500 - GET /resources
+[LOG] 2024-05-22T18:18:33.653290100 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Coco","breed":"Labrador Retriever","age":7}]
+[REQUEST] 2024-05-22T18:18:36.212678400 - GET /resources
+[LOG] 2024-05-22T18:18:36.212678400 - Response: [{"id":"1","name":"Thor","breed":"Belgian Sepherd","age":3},{"id":"2","name":"Bella","breed":"German Shepherd","age":3},{"id":"3","name":"Charlie","breed":"Golden Retriever","age":4},{"id":"4","name":"Lucy","breed":"French Bulldog","age":2},{"id":"5","name":"Rocky","breed":"Beagle","age":6},{"id":"6","name":"Luna","breed":"Poodle","age":1},{"id":"7","name":"Daisy","breed":"Bulldog","age":4},{"id":"8","name":"Cooper","breed":"Rottweiler","age":5},{"id":"9","name":"Molly","breed":"Yorkshire Terrier","age":3},{"id":"10","name":"Coco","breed":"Labrador Retriever","age":7}]
